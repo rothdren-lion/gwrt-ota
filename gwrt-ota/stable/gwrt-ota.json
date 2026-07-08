@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "version": "GWRT V20260606.9",
-  "build": 9,
-  "min_build": 8,
+  "version": "GWRT V20260606.10",
+  "build": 10,
+  "min_build": 9,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-cs-02-gwrt2",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.9/gwrt-ota-9.tar.gz",
-  "sha256": "b9b13b5367458d00bc892fb3eff660b0ac05b5bfc593fe0beda59d859cfad0a8",
-  "size": 52886,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.10/gwrt-ota-10.tar.gz",
+  "sha256": "53eb9e32f0618fa418d2454fb2653090dd4f74151dfae011700949321f3ea9aa",
+  "size": 54284,
   "reboot": false,
   "notes": [
-    "Unified device icons for topology and connected devices"
+    "Conntrack waveform, OTA version display, adaptive topology layout"
   ]
 }
