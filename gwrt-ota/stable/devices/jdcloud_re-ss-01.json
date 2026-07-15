@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "version": "GWRT V20260606.17",
-  "build": 17,
+  "version": "GWRT V20260606.18",
+  "build": 18,
   "min_build": 16,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.17/gwrt-ota-jdcloud_re-ss-01-17.tar.gz",
-  "sha256": "c170dcc6f0d65cb8945d55dd974f7e09e79c663e90dae7db33911c5ec4f48ad1",
-  "size": 31407,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.18/gwrt-ota-jdcloud_re-ss-01-18.tar.gz",
+  "sha256": "8accc157350d9f20317a4ba97700be1d729f9234d31055a287b78bddafd21a99",
+  "size": 79110,
   "reboot": false,
   "notes": [
-    "Topology deduplication and per-device OTA feed fix"
+    "Fix OAF checkbox marks, LAN multi-address deletion and safe temporary LAN aliases; retain topology and OTA fixes"
   ]
 }
