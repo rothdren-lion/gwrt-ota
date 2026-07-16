@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "version": "GWRT V20260606.18",
-  "build": 18,
-  "min_build": 16,
+  "version": "GWRT V20260606.19",
+  "build": 19,
+  "min_build": 18,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.18/gwrt-ota-jdcloud_re-ss-01-18.tar.gz",
-  "sha256": "8accc157350d9f20317a4ba97700be1d729f9234d31055a287b78bddafd21a99",
-  "size": 79110,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.19/gwrt-ota-jdcloud_re-ss-01-19.tar.gz",
+  "sha256": "011f5c2096ed6115b2313db9c6ac0788f002a2e1ad1bfce8e5e6dc072923cc38",
+  "size": 76686,
   "reboot": false,
   "notes": [
-    "Fix OAF checkbox marks, LAN multi-address deletion and safe temporary LAN aliases; retain topology and OTA fixes"
+    "Fix mobile table layouts across LuCI and prevent the legacy dashboard from replacing Administration"
   ]
 }
