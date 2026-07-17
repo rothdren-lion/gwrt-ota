@@ -1,0 +1,20 @@
+{
+  "version": "GWRT V20260606.28",
+  "build": 28,
+  "min_build": 16,
+  "channel": "stable",
+  "target": "qualcommax/ipq807x",
+  "device": "aliyun,ap8220",
+  "type": "patch",
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.28/gwrt-ota-aliyun_ap8220-28.tar.gz",
+  "sha256": "eb6a97175330b0d8f9baacb905ccaad45be01ad0dff1dab08249eaa050f61ffe",
+  "size": 6965,
+  "reboot": true,
+  "keep_config": true,
+  "force_allowed": false,
+  "reset_required": false,
+  "manual_only": false,
+  "notes": [
+    "AP8220 minimal OTA patch: OTA helper, footer URL, banner default."
+  ]
+}
