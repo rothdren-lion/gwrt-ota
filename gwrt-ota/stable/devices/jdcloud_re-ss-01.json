@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "version": "GWRT V20260606.20",
-  "build": 20,
-  "min_build": 19,
+  "version": "GWRT 260808-21",
+  "build": 21,
+  "min_build": 0,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v20260606.20/gwrt-ota-jdcloud_re-ss-01-20.tar.gz",
-  "sha256": "2361bfcf2dc2cad4f457bd917c6cb3d57ac788c7f4dd84338f8ee48b36cbe9d5",
-  "size": 61213,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v260808.21/gwrt-ota-jdcloud_re-ss-01-21.tar.gz",
+  "sha256": "8024ef581f958f567ef2160ad9af0deb1f9c38b671f9f9428fc1522a7e6b8c2a",
+  "size": 105750,
   "reboot": false,
   "notes": [
-    "Remove the retired dashboard injector and backup files; keep index.ut as the only overview implementation"
+    "同步当前设备列表 IPv4/IPv6 显示、主题样式和 OTA 版本识别；兼容 260808-01 基线。"
   ]
 }
