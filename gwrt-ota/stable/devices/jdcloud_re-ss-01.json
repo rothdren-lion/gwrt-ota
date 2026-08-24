@@ -1,16 +1,17 @@
 {
   "channel": "stable",
-  "version": "GWRT 260808-21",
-  "build": 21,
+  "version": "GWRT 260824-22",
+  "build": 22,
   "min_build": 0,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v260808.21/gwrt-ota-jdcloud_re-ss-01-21.tar.gz",
-  "sha256": "8024ef581f958f567ef2160ad9af0deb1f9c38b671f9f9428fc1522a7e6b8c2a",
-  "size": 105750,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v260824.22/gwrt-ota-jdcloud_re-ss-01-22.tar.gz",
+  "sha256": "c2beb164ddda15fdd13c056cec39b3cfa66216d4d7660030579983d5ef50776d",
+  "size": 124142,
   "reboot": false,
   "notes": [
-    "同步当前设备列表 IPv4/IPv6 显示、主题样式和 OTA 版本识别；兼容 260808-01 基线。"
+    "主题全面更新：网口卡片圆点/居中、累计流量上速率行并读内核计数器、连接数TOP3按设备聚合、菜单中文补全、右上角重启按钮",
+    "修复 index.ut 为路由存根，仪表盘更新改由 index_gwrt.ut 下发；新增 menu-i18n.js"
   ]
 }
