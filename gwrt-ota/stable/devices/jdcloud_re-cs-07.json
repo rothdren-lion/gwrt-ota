@@ -1,0 +1,17 @@
+{
+  "channel": "stable",
+  "version": "GWRT 261021-02",
+  "build": 59,
+  "min_build": 0,
+  "target": "qualcommax/ipq60xx",
+  "device": "jdcloud,re-cs-07",
+  "type": "patch",
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v261021.59/gwrt-ota-ss01-59.tar.gz",
+  "sha256": "b272796faabd9d22cf6c84d719dfb6b174472ee4d1d0e3a6255f2e43f96d8609",
+  "size": 1957,
+  "reboot": false,
+  "notes": [
+    "daed 页面修复：勾选 Enable 保存后自动 enable+start（立即出现 RUNNING + Open Web Interface）",
+    "改用 rc.init RPC（本版 rpcd 无 luci.setInitAction）；acl 放行 rc 对象"
+  ]
+}
