@@ -1,17 +1,18 @@
 {
   "channel": "stable",
-  "version": "GWRT 260824-56",
-  "build": 56,
+  "version": "GWRT 261021-02",
+  "build": 57,
   "min_build": 0,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v260824.56/gwrt-ota-jdcloud_re-ss-01-56.tar.gz",
-  "sha256": "c2beb164ddda15fdd13c056cec39b3cfa66216d4d7660030579983d5ef50776d",
-  "size": 124142,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v261021.57/gwrt-ota-ss01-57.tar.gz",
+  "sha256": "92a046a150d7e4e283d67eaa78dccab3561918bfaca3767a6e4ee49bf50f78b3",
+  "size": 199296,
   "reboot": false,
   "notes": [
-    "主题全面更新：网口卡片圆点/居中、累计流量上速率行并读内核计数器、连接数TOP3按设备聚合、菜单中文补全、右上角重启按钮",
-    "修复 index.ut 为路由存根，仪表盘更新改由 index_gwrt.ut 下发；新增 menu-i18n.js"
+    "261021-02 OTA 补丁：DNS 急救（清理插件退出后的 DNS 残留：挂载劫持/dnsmasq 上游/nft 重定向）",
+    "GECOOS AC 在仪表盘显示（control 分类归入网络区）；2.4G 首启自动 HT20",
+    "一次性脚本 once 保护（主题升级不再误停 daed/openclash 等服务）；OTA 脚本白名单扩展"
   ]
 }
