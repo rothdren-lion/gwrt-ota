@@ -1,18 +1,17 @@
 {
   "channel": "stable",
   "version": "GWRT 261021-02",
-  "build": 58,
+  "build": 59,
   "min_build": 0,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v261021.58/gwrt-ota-ss01-58.tar.gz",
-  "sha256": "9f3f370da9e11f921b490876a8252e257f8eb4ac4adbabc277e3fbfc70356261",
-  "size": 7887,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v261021.59/gwrt-ota-ss01-59.tar.gz",
+  "sha256": "b272796faabd9d22cf6c84d719dfb6b174472ee4d1d0e3a6255f2e43f96d8609",
+  "size": 1957,
   "reboot": false,
   "notes": [
-    "DNS 急救 CGI 补齐（仪表盘按钮现在可以真正调用清理脚本了）",
-    "gwrt-agent 绑定修复：pair 恢复 gwrt-pair-v2（claim_token + 二维码 + pair_uri），可正常绑定",
-    "OTA 脚本白名单扩展（www/cgi-bin、usr/sbin），后续补丁可携带更多组件"
+    "daed 页面修复：勾选 Enable 保存后自动 enable+start（立即出现 RUNNING + Open Web Interface）",
+    "改用 rc.init RPC（本版 rpcd 无 luci.setInitAction）；acl 放行 rc 对象"
   ]
 }
