@@ -1,18 +1,18 @@
 {
   "channel": "stable",
   "version": "GWRT 261021-02",
-  "build": 57,
+  "build": 58,
   "min_build": 0,
   "target": "qualcommax/ipq60xx",
   "device": "jdcloud,re-ss-01",
   "type": "patch",
-  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v261021.57/gwrt-ota-ss01-57.tar.gz",
-  "sha256": "92a046a150d7e4e283d67eaa78dccab3561918bfaca3767a6e4ee49bf50f78b3",
-  "size": 199296,
+  "url": "https://github.com/rothdren-lion/gwrt-ota/releases/download/gwrt-v261021.58/gwrt-ota-ss01-58.tar.gz",
+  "sha256": "9f3f370da9e11f921b490876a8252e257f8eb4ac4adbabc277e3fbfc70356261",
+  "size": 7887,
   "reboot": false,
   "notes": [
-    "261021-02 OTA 补丁：DNS 急救（清理插件退出后的 DNS 残留：挂载劫持/dnsmasq 上游/nft 重定向）",
-    "GECOOS AC 在仪表盘显示（control 分类归入网络区）；2.4G 首启自动 HT20",
-    "一次性脚本 once 保护（主题升级不再误停 daed/openclash 等服务）；OTA 脚本白名单扩展"
+    "DNS 急救 CGI 补齐（仪表盘按钮现在可以真正调用清理脚本了）",
+    "gwrt-agent 绑定修复：pair 恢复 gwrt-pair-v2（claim_token + 二维码 + pair_uri），可正常绑定",
+    "OTA 脚本白名单扩展（www/cgi-bin、usr/sbin），后续补丁可携带更多组件"
   ]
 }
